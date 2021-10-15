@@ -6,6 +6,8 @@ const notaSchema = new Schema({
     username: { type: String, required: [true, 'Nombre obligatorio'] },
     email: String,
     password: String,
+    rol:  { type: String, default:"2"},
+
     
 });
 
